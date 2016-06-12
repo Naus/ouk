@@ -6,7 +6,7 @@
   background-size: cover;
   display: flex;
   justify-content: center;
-  min-height: 25em;
+  min-height: 65em;
   padding: 2em;
 
 
@@ -22,4 +22,14 @@
     width: auto;
   }
 }
+}
+
+.navLogo {
+  height: 40px;
+}
+
+.border_left{
+  border-left: 2px solid;
+  border-left-color: #1caef5;
+  padding-left: 16px;
 }
