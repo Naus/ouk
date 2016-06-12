@@ -50,7 +50,7 @@
     <!-- Your styles -->
     <link rel="stylesheet" href="styles/main.css">
   </head>
-  <body>
+  <body id="home_index">
     <!-- Always shows a header, even in smaller screens. -->
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header mdl-color--grey-900">
@@ -81,7 +81,7 @@
   <div class="mdl-layout__drawer">
     <span class="mdl-layout-title mdl-color-text--orange-700"><img src="/images/ouk_logo.png" alt="One Up King logo" class="navLogo"></span>
     <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="">HOME</a>
+      <a class="mdl-navigation__link" href="#home_index">HOME</a>
       <a class="mdl-navigation__link" href="">ABOUT US</a>
       <a class="mdl-navigation__link" href="">CONTACT</a>
       <a class="mdl-navigation__link" href="">FAQ</a>
@@ -93,25 +93,11 @@
       <div class="hero">
         <div class="hero-content">
         <img src="https://trello-attachments.s3.amazonaws.com/575aef7ab8bd22ad72ca4856/1440x2443/7727e87ab7380b62657445173e3d948b/OUK_Desktop_HD.png" alt="phone image" class="hero-logo">
+        <img src="/images/hero_phone.png" alt="phone image" class="hero-logo">
         </div>
       </div>
       <!--Hero END -->
       <!--Feature Section -->
-      <div class="modal">
-  <label for="modal-1">
-    <div class="modal-trigger">Click for Modal</div>
-  </label>
-  <input class="modal-state" id="modal-1" type="checkbox" />
-  <div class="modal-fade-screen">
-    <div class="modal-inner">
-      <div class="modal-close" for="modal-1"></div>
-      <h1>Modal Title</h1>
-      <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
-      <p class="modal-content">Body text lorem ipsum dolor ipsum dolor sit sit possimus amet, consectetur adipisicing elit. Itaque, placeat, explicabo, veniam quos aperiam molestias eriam molestias molestiae suscipit ipsum enim quasi sit possimus quod atque nobis voluptas earum odit accusamus quibusdam. Body text lorem ipsum dolor ipsum dolor sit sit possimus amet.</p>
-    </div>
-  </div>
-</div>
-
       <!--Feature END -->
       <!--World Section -->
       <!-- World END -->
@@ -123,7 +109,7 @@
       <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
       <h1 class="mdl-mega-footer__heading">Site Menu</h1>
       <ul class="mdl-mega-footer__link-list border_left">
-        <li><a href="#">Home</a></li>
+        <li><a href="#home_index">Home</a></li>
         <li><a href="#">About Us</a></li>
         <li><a href="#">Contact</a></li>
         <li><a href="#">FAQ</a></li>
