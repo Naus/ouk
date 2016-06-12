@@ -53,7 +53,7 @@
   <body>
     <!-- Always shows a header, even in smaller screens. -->
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-  <header class="mdl-layout__header mdl-color--grey-900 mdl-color-text--orange-700">
+  <header class="mdl-layout__header mdl-color--grey-900">
     <div class="mdl-layout__header-row">
       <!-- Title -->
       <span class="mdl-layout-title"><img src="/images/ouk_logo.png" alt="One Up King logo" class="navLogo"></span>
@@ -62,7 +62,19 @@
       <!-- Navigation. We hide it in small screens. -->
       <nav class="mdl-navigation">
         <a class="mdl-navigation__link mdl-color-text--grey-200" href="http://oneupking.slack.com"><img src="/images/slack_white.png" alt="slack logo" class="navLogo"></a>
-        <a class="mdl-navigation__link mdl-color-text--light-blue-400" href="">SHARE</a>
+        <!-- Right aligned menu below button -->
+        <div id="tt4">
+        <button id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon">
+          <i class="material-icons mdl-color-text--light-blue-400">share</i>
+        </button>
+        </div>
+        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right">
+          <li class="mdl-menu__item">Facebook</li>
+          <li class="mdl-menu__item">Twitter</li>
+          <li class="mdl-menu__item">Google +</li>
+        </ul>
+        <div class="mdl-tooltip" for="tt4"> Share this site<br>via social media
+        </div>
       </nav>
     </div>
   </header>
