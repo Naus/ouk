@@ -1,9 +1,9 @@
 .hero {
   $large-screen: 50em !default;
   align-items: center;
-  background-image: url("../images/hero.jpg");
+  background-image: url("../images/hero.png");
   background-position: right;
-  background-size: none;
+  background-size: cover;
   display: flex;
   justify-content: center;
   min-height: 25em;
