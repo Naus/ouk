@@ -1,0 +1,11 @@
+<!-- Square card -->
+<style>
+.card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+.card-square > .mdl-card__title {
+  color: #fff;
+  background:
+    url('../images/ouk_logo.png') bottom right 15% no-repeat #46B6AC;
+}
