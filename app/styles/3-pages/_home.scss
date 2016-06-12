@@ -1,7 +1,17 @@
+// Nav bar section --MDL
+
+.navLogo {
+  height: 40px;
+}
+
+// Nav End -----------
+
+// Hero section --Bourbon
+
 .hero {
   $large-screen: 50em !default;
   align-items: center;
-  background-image: url("../images/hero.png");
+  background-image: url("../images/hero_bg.png");
   background-position: right;
   background-size: cover;
   display: flex;
@@ -24,12 +34,15 @@
 }
 }
 
-.navLogo {
-  height: 40px;
-}
+// Hero End ----------------------
+
+
+// Extra Styles
 
 .border_left{
   border-left: 2px solid;
   border-left-color: #1caef5;
   padding-left: 16px;
 }
+
+// Extra Styles End ---------------

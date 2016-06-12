@@ -1,25 +1,25 @@
 {
-  "name": "Web Starter Kit",
-  "short_name": "WSK",
+  "name": "One Up King",
+  "short_name": "One Up",
   "icons": [{
-        "src": "images/touch/icon-128x128.png",
-        "sizes": "128x128",
+        "src": "images/touch/favicon-96x96.png",
+        "sizes": "96x96",
         "type": "image/png"
       }, {
-        "src": "images/touch/apple-touch-icon.png",
+        "src": "images/touch/apple-icon.png",
         "sizes": "152x152",
         "type": "image/png"
       }, {
-        "src": "images/touch/ms-touch-icon-144x144-precomposed.png",
+        "src": "images/touch/ms-icon-144x144.png",
         "sizes": "144x144",
         "type": "image/png"
       }, {
-        "src": "images/touch/chrome-touch-icon-192x192.png",
+        "src": "images/touch/android-icon-192x192.png",
         "sizes": "192x192",
         "type": "image/png"
       }],
   "start_url": "/index.html?homescreen=1",
   "display": "standalone",
-  "background_color": "#3E4EB8",
-  "theme_color": "#2F3BA2"
+  "background_color": "#212121",
+  "theme_color": "#F57C00"
 }

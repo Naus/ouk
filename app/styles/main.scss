@@ -25,9 +25,10 @@ will be correctly compiled during `gulp serve` and `gulp`
  @import '1-tools/neat/neat';
 
 // 2 - MODULES
+@import '2-modules/modal';
 
 // 3 - PAGES
- @import '3-pages/hero';
+ @import '3-pages/home';
 
 
 html, body {

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="">
+    <meta name="description" content="One Up King">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>One Up King</title>
 
@@ -26,10 +26,10 @@
 
     <!-- Tile icon for Win8 (144x144 + tile color) -->
     <meta name="msapplication-TileImage" content="images/touch/ms-icon-144x144.png">
-    <meta name="msapplication-TileColor" content="#263238">
+    <meta name="msapplication-TileColor" content="#F57C00">
 
     <!-- Color the status bar on mobile devices -->
-    <meta name="theme-color" content="#263238">
+    <meta name="theme-color" content="#F57C00">
 
     <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
     <!--
@@ -96,11 +96,30 @@
         </div>
       </div>
       <!--Hero END -->
+      <!--Feature Section -->
+      <div class="modal">
+  <label for="modal-1">
+    <div class="modal-trigger">Click for Modal</div>
+  </label>
+  <input class="modal-state" id="modal-1" type="checkbox" />
+  <div class="modal-fade-screen">
+    <div class="modal-inner">
+      <div class="modal-close" for="modal-1"></div>
+      <h1>Modal Title</h1>
+      <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
+      <p class="modal-content">Body text lorem ipsum dolor ipsum dolor sit sit possimus amet, consectetur adipisicing elit. Itaque, placeat, explicabo, veniam quos aperiam molestias eriam molestias molestiae suscipit ipsum enim quasi sit possimus quod atque nobis voluptas earum odit accusamus quibusdam. Body text lorem ipsum dolor ipsum dolor sit sit possimus amet.</p>
+    </div>
+  </div>
+</div>
+
+      <!--Feature END -->
+      <!--World Section -->
+      <!-- World END -->
       <!-- Footer -->
       <footer class="mdl-mega-footer mdl-color--grey-900">
-  <div class="mdl-mega-footer__middle-section">
+      <div class="mdl-mega-footer__middle-section">
 
-    <div class="mdl-mega-footer__drop-down-section">
+      <div class="mdl-mega-footer__drop-down-section">
       <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
       <h1 class="mdl-mega-footer__heading">Site Menu</h1>
       <ul class="mdl-mega-footer__link-list border_left">
@@ -111,9 +130,9 @@
         <li><a href="#">Suggestion Box</a></li>
         <li><a href="#">Team</a></li>
       </ul>
-    </div>
+      </div>
 
-    <div class="mdl-mega-footer__drop-down-section">
+      <div class="mdl-mega-footer__drop-down-section">
       <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
       <h1 class="mdl-mega-footer__heading">Follow Us</h1>
       <ul class="mdl-mega-footer__link-list border_left">
@@ -123,23 +142,22 @@
         <li><a href="#">Snapchat</a></li>
         <li><a href="#">YouTube</a></li>
       </ul>
-    </div>
+      </div>
 
-  </div>
+      </div>
 
-  <div class="mdl-mega-footer__bottom-section">
-    <div class="mdl-logo"><img src="/images/ouk_logo.png" alt="One Up King logo" class="navLogo"></div>
-    <ul class="mdl-mega-footer__link-list">
-      <li><a href="#">Help</a></li>
+      <div class="mdl-mega-footer__bottom-section">
+      <div class="mdl-logo">One Up King</div>
+      <ul class="mdl-mega-footer__link-list">
       <li><a href="#">Privacy & Terms</a></li>
       <li>
         oneupking.com &#169 2016 All rights reserved, <a href="https://www.nausdesign.com" target="_blank">NausDesign</a>
       </li>
-    </ul>
-  </div>
+      </ul>
+      </div>
+      </footer>
+      <!--Footer END -->
 
-</footer>
-<!--Footer END -->
     </div>
   </main>
 </div>
@@ -147,6 +165,8 @@
     <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
     <!-- build:js scripts/main.min.js -->
     <script src="scripts/main.js"></script>
+    <script src="scripts/mainjq.js"></script>
+    <script src="assets/js/jquery-2.1.4.min.js"></script>
     <!-- endbuild -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
