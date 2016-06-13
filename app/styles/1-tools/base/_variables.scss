@@ -20,13 +20,19 @@ $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
-$blue: #29B6F6;
-$dark-gray: #212121;
+$kingorange: #e67e22;
+$kingblue: #39bfe6;
+$kingwhite: #eeeeee;
+$kinggray: #505556;
+$kingblack: #1c2021;
+
+$blue: #39bfe6;
+$dark-gray: #1c2021;
 $medium-gray: #999;
 $light-gray: #eeeeee;
 
 // Font Colors
-$base-font-color: $dark-gray;
+$base-font-color: $kingwhite;
 $action-color: $blue;
 
 // Border
