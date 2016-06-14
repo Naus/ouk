@@ -1,0 +1,68 @@
+// VAR
+$kingorange: #e67e22;
+$kingblue: #39bfe6;
+$kingwhite: #eeeeee;
+$kinggray: #505556;
+$kingblack: #1c2021;
+
+$breakpoint-tablet: 960px;
+$breakpoint-cell: 500px;
+
+// END VAR ------------
+
+// Nav bar section --MDL
+.navLogo{
+  height: 40px;
+}
+// Nav End -----------
+
+// Hero section --Bourbon
+.hero-wrapper{
+  padding-top: 5%;
+}
+
+#hero{
+  background-image: url("../images/hero_bg.png");
+  background-size: cover;
+  height: 100vh;
+  @media (max-width:$breakpoint-tablet) {
+    height: auto;
+  }
+  @media (max-width: $breakpoint-cell) {
+    text-align: center;
+    background-position: center;
+  }
+
+  h1{
+    color: $kingorange;
+    font-size: 50px;
+    margin: 0 0;
+  }
+
+  .hero-text{
+    padding-left: 50px;
+    @media (max-width: $breakpoint-cell) {
+      padding-left: 00px;
+    }
+  }
+
+  #mc_embed_signup_scroll{
+    text-align: left;
+    padding-left: 50px;
+    @media (max-width: $breakpoint-cell) {
+      text-align: center;
+      padding-left: 0px;
+    }
+  }
+
+}
+// Hero End ----------------------
+
+
+// Extra Styles
+.border_left{
+  border-left: 2px solid;
+  border-left-color: #1caef5;
+  padding-left: 16px;
+}
+// Extra Styles End ---------------

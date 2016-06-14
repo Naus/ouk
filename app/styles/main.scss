@@ -19,21 +19,27 @@ Note: any .css or .scss files included in the 'styles' directory
 will be correctly compiled during `gulp serve` and `gulp`
  */
 
- // 1 - TOOLS
- @import '1-tools/bourbon/bourbon';
- @import '1-tools/base/base';
- @import '1-tools/neat/neat';
+// 1 - TOOLS
+@import '1-tools/bourbon/bourbon';
+@import '1-tools/base/base';
+@import '1-tools/neat/neat';
 
 // 2 - MODULES
 @import '2-modules/cards';
-@import '2-modules/grid';
 
 // 3 - PAGES
- @import '3-pages/home';
+@import '3-pages/home';
+@import '3-pages/features';
+@import '3-pages/world';
 
 
 html, body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
   margin: 0;
   padding: 0;
+}
+
+.content-grid {
+  max-width: 1200px;
+  margin: auto auto;
 }
