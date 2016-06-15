@@ -1,0 +1,44 @@
+// SITE BUTTONS --------
+
+//HERO CTA ---------
+.cta-wrapper{
+  margin-top: 60px;
+}
+
+.learn-cta{
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  border-radius: 0.3rem;
+  padding: 15px 75px;
+  font-weight: 700;
+  font-size: 14px;
+  color: $kingwhite;
+  text-decoration: none;
+  text-alighn: center;
+  cursor: pointer;
+  background-color: transparentize($kingblue, 0.2);
+
+  &:hover{
+    color: $kingwhite;
+    background-color: $kingblue;
+  }
+}
+
+.video-cta{
+  border: 2px solid $kingblue;
+  margin: 10px 0 0 50px;
+  border-radius: 0.3rem;
+  padding: 15px 75px;
+  font-weight: 700;
+  font-size: 14px;
+  color: $kingwhite;
+  text-decoration: none;
+  text-alighn: center;
+  cursor: pointer;
+
+  &:hover{
+    color: $kingwhite;
+    background-color: $kingblue;
+  }
+}

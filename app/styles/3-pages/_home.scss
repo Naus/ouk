@@ -24,7 +24,7 @@ $breakpoint-cell: 500px;
 #hero{
   background-image: url("../images/hero_bg.png");
   background-size: cover;
-  height: 100vh;
+  height: 98vh;
   @media (max-width:$breakpoint-tablet) {
     height: auto;
   }
@@ -35,26 +35,45 @@ $breakpoint-cell: 500px;
 
   h1{
     color: $kingorange;
-    font-size: 50px;
+    font-size: 60px;
     margin: 0 0;
   }
 
+  h3{
+    font-size: 30px;
+  }
+
+  h4{
+    font-size: 18px;
+  }
+
   .hero-text{
-    padding-left: 50px;
+    padding: 25px 0 0 80px;
     @media (max-width: $breakpoint-cell) {
-      padding-left: 00px;
+      padding-left: 0px;
+    }
+  }
+
+  .form-text{
+    padding: 0 0 0 80px;
+    @media (max-width: $breakpoint-cell) {
+      padding-left: 0px;
     }
   }
 
   #mc_embed_signup_scroll{
     text-align: left;
-    padding-left: 50px;
+    padding-left: 80px;
     @media (max-width: $breakpoint-cell) {
       text-align: center;
       padding-left: 0px;
     }
   }
 
+  .phone-img{
+    height: 500px;
+    width: auto;
+  }
 }
 // Hero End ----------------------
 
