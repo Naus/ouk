@@ -1,6 +1,6 @@
 #{$all-buttons} {
   appearance: none;
-  background-color: $action-color;
+  background-color: $kingorange;
   border: 0;
   border-radius: $base-border-radius;
   color: #fff;
@@ -10,7 +10,7 @@
   font-size: $base-font-size;
   -webkit-font-smoothing: antialiased;
   font-weight: 600;
-  line-height: 1;
+  line-height: 0.8;
   padding: $small-spacing $base-spacing;
   text-decoration: none;
   transition: background-color $base-duration $base-timing;
@@ -20,7 +20,7 @@
 
   &:hover,
   &:focus {
-    background-color: shade($action-color, 20%);
+    background-color: shade($kingblue, 20%);
     color: #fff;
   }
 
@@ -29,7 +29,7 @@
     opacity: 0.5;
 
     &:hover {
-      background-color: $action-color;
+      background-color: $kingblue;
     }
   }
 }
