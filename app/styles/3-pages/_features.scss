@@ -1,4 +1,24 @@
+
 #features{
-  height: 500px;
+  //height: 500px;
   background-color: $kingwhite;
+
+  h3{
+    font-size: 30px;
+    color: $kingblack;
+  }
+
+  p, h4{
+    color: $kingblack;
+    font-size: 18px;
+    padding: 0 350px 0 25px;
+    @media (max-width: $breakpoint-cell) {
+      padding: 0 0 0 20px;
+    }
+  }
+
+  span{
+    color: $kingblue;
+  }
+
 }

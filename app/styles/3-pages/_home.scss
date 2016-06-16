@@ -17,6 +17,10 @@ $breakpoint-cell: 500px;
 // Nav End -----------
 
 // Hero section --Bourbon
+.section-wrapper{
+  padding: 50px 0 50px 0;
+}
+
 .hero-wrapper{
   padding-top: 5%;
 }
@@ -73,7 +77,11 @@ $breakpoint-cell: 500px;
   .phone-img{
     height: 500px;
     width: auto;
+    @media (max-width: $breakpoint-cell) {
+      padding-bottom: 50px;
+    }
   }
+
 }
 // Hero End ----------------------
 

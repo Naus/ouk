@@ -76,7 +76,7 @@
         <a class="mdl-navigation__link mdl-color-text--grey-200" href="http://oneupking.slack.com"><img src="/images/slack_white.png" alt="slack logo" class="navLogo"></a>
 
       <!-- SHARE BTN in NAV -->
-      <div id="tt4">
+      <div id="tt1">
         <button id="show-dialog" type="button" class="mdl-button mdl-color-text--light-blue-400"><i class="material-icons mdl-color-text--light-blue-400">share</i></button>
           <dialog class="mdl-dialog">
           <div class="card-square">
@@ -103,22 +103,8 @@
           </div>
         </div>
           </dialog>
-          <script>
-          var dialog = document.querySelector('dialog');
-          var showDialogButton = document.querySelector('#show-dialog');
-          if (! dialog.showModal) {
-          dialogPolyfill.registerDialog(dialog);
-          }
-          showDialogButton.addEventListener('click', function() {
-          dialog.showModal();
-          });
-          dialog.querySelector('.close').addEventListener('click', function() {
-          dialog.close();
-          });
-          </script>
       </div>
-      <div class="mdl-tooltip" for="tt4"> Share this site<br>via social media
-      </div>
+      <div class="mdl-tooltip" for="tt1"> Share this site<br>via social media</div>
       </nav>
     </div>
   </header>
@@ -141,8 +127,8 @@
         <div class="hero-text">
           <h1>ONE UP KING</h1>
           <h3> Challenge Yourself, Challenge Others,<br> Become a King!</h3>
-          <h4>
-          Have a talent or Like to break records?<br>  Now you can show off your talent and challenge others<br> to beat your records and become the King, the<br> ONE UP KING!
+          <h4 class="border_left">
+          Have a talent or like to set trends? Now you can show off your talent and challenge others to be creative and come up with ways to ONE UP you and take the crown!
         </h4>
         </div>
         <!-- Begin MailChimp Signup Form -->
@@ -163,8 +149,9 @@
             Please subscribe, and be the first to be notified on the progress of One Up King.
           </p>
           <div class="cta-wrapper">
-          <a href="#" class="learn-cta">Learn More</a>
-          <a href="#" class="video-cta">Play Video</a>
+          <a href="#features" class="learn-cta mdl-cell mdl-cell--hide-phone">Learn More</a>
+          <a href="#" id="tt2" class="video-cta mdl-cell mdl-cell--hide-phone">Play Video</a>
+          <div class="mdl-tooltip mdl-tooltip--large" for="tt2">Coming Soon</div>
           </div>
         </div>
       </div>
@@ -175,19 +162,32 @@
       </section>
       <!--Hero END -->
       <!--Feature Section -->
-      <section id="features">
+      <section id="features" class="section-wrapper">
         <div class="mdl-grid">
-          <div class="mdl-cell mdl-cell--12-col">
+          <div class="mdl-cell mdl-cell--6-col">
+            <h3 class="border_left">FEATURE PACKED<br>SIMPLE TO USE.</h3>
+            <h4><b>STEP<span>ONE</span></b></h4>
+            <p>
+            Login to One Up King mobile application, right away you are ready to start recording and set your first challenge.
+            </p>
+          </div>
+          <div class="mdl-cell mdl-cell--6-col">
 
           </div>
         </div>
       </section>
       <!--Feature END -->
       <!--World Section -->
-      <section id="world">
+      <section id="world" class="section-wrapper">
         <div class="mdl-grid">
-          <div class="mdl-cell mdl-cell--12-col">
+          <div class="mdl-cell mdl-cell--6-col">
 
+          </div>
+          <div class="mdl-cell mdl-cell--6-col">
+            <h3 class="border_left">JOIN OTHER AROUND<br> THE WORLD</h3>
+            <p>
+              Start the next big trend and watch your challenge rise to the top while others try and ONE UP.
+            </p>
           </div>
         </div>
       </section>
@@ -250,7 +250,21 @@
     </div>
   </main>
 </div>
-
+    <!-- Dialog script -->
+    <script>
+    var dialog = document.querySelector('dialog');
+    var showDialogButton = document.querySelector('#show-dialog');
+    if (! dialog.showModal) {
+    dialogPolyfill.registerDialog(dialog);
+    }
+    showDialogButton.addEventListener('click', function() {
+    dialog.showModal();
+    });
+    dialog.querySelector('.close').addEventListener('click', function() {
+    dialog.close();
+    });
+    </script>
+    <!-- Dialog End -->
     <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
     <!-- build:js scripts/main.min.js -->
     <script src="scripts/main.js"></script>
