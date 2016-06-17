@@ -14,7 +14,7 @@
   p, h4{
     color: $kingblack;
     font-size: 18px;
-    padding: 0 350px 0 25px;
+    padding: 0 150px 0 25px;
     @media (max-width: $breakpoint-cell) {
       padding: 0 0 0 20px;
     }
@@ -24,4 +24,9 @@
     color: $kingblue;
   }
 
+}
+
+.feature-img{
+  height: 500px;
+  float: right;
 }
