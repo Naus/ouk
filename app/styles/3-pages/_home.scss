@@ -28,7 +28,7 @@ $breakpoint-cell: 500px;
 #hero{
   background-image: url("../images/hero_bg.jpg");
   background-size: cover;
-  height: 98vh;
+  height: 95vh;
   @media (max-width:$breakpoint-tablet) {
     height: auto;
   }
@@ -59,12 +59,9 @@ $breakpoint-cell: 500px;
     padding-top: 25px;
   }
 
-
-  #mc_embed_signup_scroll{
-    text-align: left;
-    @media (max-width: $breakpoint-cell) {
-      text-align: center;
-    }
+  #mc_embed_signup input.email {
+    height: 35px;
+    margin-bottom: 5px;
   }
 
   .phone-img{
@@ -78,6 +75,14 @@ $breakpoint-cell: 500px;
 }
 // Hero End ----------------------
 
+// Form Style override
+#mc_embed_signup_scroll{
+  text-align: left;
+  @media (max-width: $breakpoint-cell) {
+    text-align: center;
+  }
+}
+// Form END -----------------------
 
 // Extra Styles
 .border_left{

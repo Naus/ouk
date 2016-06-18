@@ -1,0 +1,15 @@
+footer{
+  #mc_embed_signup_scroll{
+    .send-cta{
+      background-color: $kingblue;
+    }
+  }
+  #mc_embed_signup input.email {
+    height: 35px;
+    width: 235px;
+    margin-bottom: 5px;
+    @media (max-width: $breakpoint-cell) {
+      width: 100%;
+    }
+  }
+}
