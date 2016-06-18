@@ -70,6 +70,7 @@ $breakpoint-cell: 500px;
     height: 500px;
     width: auto;
     @media (max-width: $breakpoint-cell) {
+      height: 400px;
       padding-bottom: 50px;
     }
   }
