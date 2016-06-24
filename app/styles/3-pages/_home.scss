@@ -7,9 +7,6 @@ $kingblack: #1c2021;
 
 $breakpoint-tablet: 960px;
 $breakpoint-cell: 500px;
-
-@font-face { font-family: Outlier; src: url('fonts/Outlier.ttf'); }
-@font-face { font-family: Outlier; src: url('fonts/Outlier_Rail.ttf'); }
 // END VAR ------------
 
 // Nav bar section --MDL
@@ -41,10 +38,9 @@ $breakpoint-cell: 500px;
 
   h1{
     color: $kingorange;
-    font-size: 60px;
+    font-size: 65px;
 	  line-height: 73px;
-	  font-family: 'Outlier', 'Roboto';
-	  font-weight: 400;
+	  font-weight: 700;
 	  font-style: normal;
     margin: 0 0;
   }
