@@ -112,9 +112,9 @@
     <nav class="mdl-navigation">
       <a class="mdl-navigation__link" href="#home_index">HOME</a>
       <a class="mdl-navigation__link" href="#features">ABOUT US</a>
-      <a class="mdl-navigation__link" href="contact.html">CONTACT</a>
-      <a class="mdl-navigation__link" href="faq.html">FAQ</a>
-      <a class="mdl-navigation__link" href="team.html">TEAM</a>
+      <a class="mdl-navigation__link" href="#contact-panel">CONTACT</a>
+      <a class="mdl-navigation__link" href="#faq-panel">FAQ</a>
+      <a class="mdl-navigation__link" href="#team-panel">TEAM</a>
     </nav>
   </div>
   <main class="mdl-layout__content">
@@ -191,6 +191,46 @@
         </div>
       </section>
       <!-- World END -->
+      <!-- Tabs -->
+      <section id="tabs">
+      <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect content-grid section-wrapper">
+      <div class="mdl-tabs__tab-bar">
+        <a href="#team-panel" class="mdl-tabs__tab is-active">TEAM</a>
+        <a href="#contact-panel" class="mdl-tabs__tab">CONTACT</a>
+        <a href="#faq-panel" class="mdl-tabs__tab">FAQ</a>
+      </div>
+
+      <div class="mdl-tabs__panel is-active" id="team-panel">
+        <h1>One Up King Team</h1>
+        <ul>
+          <li>Chris Nauslar</li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="mdl-tabs__panel" id="contact-panel">
+      <h1>Contact Me</h1>
+        <div>
+        <form method="POST" action="https://formspree.io/chris.oneupking@gmail.com">
+          <input type="text" name="name" placeholder="Name *">
+          <input type="text" name="company" placeholder="Company">
+          <input type="email" name="_replyto" placeholder="E-Mail *">
+          <input type="text" name="phone" placeholder="Phone">
+          <input type="text" name="inquiring" placeholder="Inquiring *">
+          <textarea name="message" placeholder="Message *"></textarea>
+          <input type="submit" value="Send" class="send-cta">
+        </form>
+        </div>
+      </div>
+      <div class="mdl-tabs__panel" id="faq-panel">
+        <h1>FAQ</h1>
+        <ul>
+          <li>1.</li>
+          <li>2</li>
+        </ul>
+      </div>
+      </div>
+      </section>
+      <!-- Tabs END -->
       <!-- Footer -->
       <footer class="mdl-mega-footer mdl-color--grey-900">
       <div class="mdl-mega-footer__middle-section">
